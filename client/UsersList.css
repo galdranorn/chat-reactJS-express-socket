@@ -4,13 +4,21 @@
     width: 25vw;
     justify-content: flex-start;
     flex-direction: column;
-    border-right: 1px solid #ccc;
+    opacity: 0.9;
+    font-family: 'Ovo';
+    font-size: 1.3em;
+    background: rgba(255,255,255,0.85);
 }
 
 .UsersOnline {
     padding: 20px;
+    font-weight: bold;
     text-align: center;
-    background: #ccc;
+    background: rgba(255,255,255,0.90);
+    color: #333;
+}
+.UsersOnline span {
+    font-size: 1.5em;
 }
 
 .UsersList {
@@ -20,7 +28,13 @@
 
 .UserItem {
     list-style: none;
-    border-bottom: 1px solid #ccc;
     padding: 20px;
     margin: 0 0 0 20px;
+    font-weight: bold;
+}
+.UserItem span {
+    margin-right: 20px;
+    font-size: 1.3em;
+    color: #333;
+
 }

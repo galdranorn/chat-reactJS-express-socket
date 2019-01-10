@@ -5,4 +5,13 @@
     justify-content: flex-start;
     width: 75vw;
     padding: 20px;
+    
+}
+
+.Message {
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px dotted #000;
 }

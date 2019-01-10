@@ -6,31 +6,39 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 100vh;
+    height: 97vh;
+    background: url('https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Ovo';
 }
 
 .AppHeader {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 1px solid #ccc;
 }
 
 .AppTitle {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
     display: flex;
     width: 25vw;
-    border-right: 1px solid #ccc;
     justify-content: center;
     box-sizing: border-box;
     padding: 20px;
+    background: rgba(255,255,255,0.95);
 }
 
 .AppRoom {
     display: flex;
+    font-size: 1.5em;
     width: 75vw;
     justify-content: center;
     box-sizing: border-box;
     padding: 20px;
+    background: rgba(255,255,255,0.85);
 }
 
 .AppBody {

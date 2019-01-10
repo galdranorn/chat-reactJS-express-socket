@@ -31,10 +31,10 @@ class App extends Component {
            <div className={styles.App}>
              <div className={styles.AppHeader}>
                <div className={styles.AppTitle}>
-                 ChatApp
+                 Chat App
                </div>
                <div className={styles.AppRoom}>
-                 App room
+                 App room name
                </div>
              </div>
              <div className={styles.AppBody}>
@@ -68,18 +68,18 @@ class App extends Component {
         this.setState({users});
       }
 
-      handleMessageSubmit(message) {
+    handleMessageSubmit(message) {
         const messages = [message, ...this.state.messages];
         this.setState({messages});
         socket.emit('message', message);
-      }
+    }
 
-      handleUserSubmit(name) {
+    handleUserSubmit(name) {
         this.setState({name});
         socket.emit('join', name);
-      }
+    }
 
-      
+
 };
 
 export default hot(module)(App);
